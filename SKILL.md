@@ -55,6 +55,9 @@ python scripts/run_pipeline.py "<후보키워드>" --title "<설계상품명>"
 ### 4단계: 스마트스토어 20개 항목 폼 출력
 사용자가 그대로 복사해서 스마트스토어 센터에 붙여넣을 수 있도록 20개 항목을 채워 출력한다.
 
+### 5단계: SmartStoreListingPayload JSON 동시 출력 (Auto-fill 브릿지용)
+스마트스토어 센터(`sell.smartstore.naver.com`) Auto-fill 크롬 확장에서 원클릭으로 주입할 수 있도록 `contracts/listing-data.schema.json` 규격에 맞는 완성형 JSON 블록을 함께 출력한다.
+
 ---
 
 ## 2. 판매자 기본 고정정보 (기본 셋팅)
